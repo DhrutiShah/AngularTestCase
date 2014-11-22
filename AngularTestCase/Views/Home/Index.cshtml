@@ -1,0 +1,21 @@
+﻿<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/app/app.js"></script>
+<script src="~/Scripts/app/Controller/AppController.js"></script>
+
+<div class="row" ng-app="app">
+    <div ng-controller="AppController">
+        <div ng-init="GetData()">
+            <button class="btn" ng-click="toggle()">Toggle</button>
+            <p ng-show="visible">Hello World!</p>
+
+            <input type="text" ng-model="name" placeholder="Enter your name">
+            <p>{{greeting}}</p>
+        </div>
+    </div>
+    <label for="checkbox">
+        <input id="checkbox" type="checkbox" ng-model="visible">Toggle me
+    </label>
+    <div show="visible">
+        <p>Hello World</p>
+    </div>
+</div>

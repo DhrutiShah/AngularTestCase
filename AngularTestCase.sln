@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularTestCase", "AngularTestCase\AngularTestCase.csproj", "{6B76B6F2-6795-47FD-ADA4-4EE0B248CD3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularTestCase.Tests", "AngularTestCase.Tests\AngularTestCase.Tests.csproj", "{CD8A4DB6-7392-43A4-8914-62363B18EC37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B76B6F2-6795-47FD-ADA4-4EE0B248CD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B76B6F2-6795-47FD-ADA4-4EE0B248CD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B76B6F2-6795-47FD-ADA4-4EE0B248CD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B76B6F2-6795-47FD-ADA4-4EE0B248CD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD8A4DB6-7392-43A4-8914-62363B18EC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8A4DB6-7392-43A4-8914-62363B18EC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8A4DB6-7392-43A4-8914-62363B18EC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8A4DB6-7392-43A4-8914-62363B18EC37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
